@@ -1,3 +1,27 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
+
+.container-fluid {
+    position: relative;
+}
+
+/* .banner {
+} */
+
+.jim-harris {
+    width: 100%;
+}
+
+.more-info {
+    height: 15vh;
+    background-color: blue;
+}
+
+.footer {
+    height: 20vh;
+    background-color: darkblue;
+}
+
+/* media queries */
