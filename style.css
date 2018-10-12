@@ -2,10 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* .container-fluid {
-    position: relative;
-} */
-
+/* styling for the top banner, including form */
 .banner {
     position: relative;
 }
@@ -63,17 +60,34 @@ body {
     box-shadow: 0 0.2rem rgb(124, 14, 37);
 }
 
+/* styling for the "more info" blue block */
 .more-info {
     position: relative;
-    height: 15vh;
     background-color: rgb(0, 91, 138);
     text-align: center;
     justify-content: center;
 }
 
+.more-info .btn {
+    background-color: rgb(0, 91, 138);
+    color: white;
+    font-weight: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    border: 0.13rem solid rgb(0, 124, 178);
+    padding: 1rem 4rem;
+    margin: 2rem auto;
+}
+
+.collapse .card {
+    background-color: rgb(64, 157, 197);
+    color: white;
+    margin: 0 25%;
+}
+
+/* styling for the bottom blue block (footer) */
 .footer-container {
     position: relative;
-    height: 20vh;
     text-align: center;
     background-color: rgb(0, 124, 178);
     color: white;
@@ -91,6 +105,7 @@ body {
 .paid-message {
     color: rgb(64, 157, 197);
     font-size: 0.5rem;
+    font-weight: 600;
     border: 0.1rem solid rgb(64, 157, 197);
     padding: 1rem 3rem 0 3rem;
     margin: 4px 40%;

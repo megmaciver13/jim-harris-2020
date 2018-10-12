@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="banner">
-        <img src="./assets/hero-background-cropped.png" alt="Jim Harris Banner" class="jim-harris container-fluid">
+        <img src="./assets/hero-background-cropped.png" alt="Jim Harris Banner" class="jim-harris">
         <div class="form-container">
             <img src="./assets/logo.png" alt="Jim Harris for President" class="logo">
             <div class="form">
@@ -30,7 +30,18 @@
     </div>
 
     <div class="more-info">
-        <h1>MORE INFO</h1>
+        <button class="btn" data-toggle="collapse" data-target="#collapseInfo" aria-expanded="false" aria-controls="collapseExample">
+            LEARN MORE ABOUT JIM
+            <i class="fal fa-angle-down"></i>
+        </button>
+        <div class="collapse" id="collapseInfo">
+            <div class="card card-body">
+                <h3>Jim Harris: The Hero You Need</h3>
+                <p>Jelly beans candy sweet roll danish cake soufflé croissant donut cookie. Lemon drops tootsie roll chocolate cake jelly beans muffin muffin. Cake gummies candy canes. Cake cake sugar plum. Sweet roll candy dessert. Chocolate bar tiramisu cheesecake oat cake dragée. Jelly-o sugar plum halvah cake dessert icing. Brownie jujubes halvah lemon drops fruitcake macaroon halvah muffin. Caramels cotton candy marzipan biscuit.</p>
+                <p>Pastry oat cake chocolate bar marzipan pastry jelly beans lollipop dragée. Oat cake dragée caramels. Wafer soufflé tootsie roll lollipop danish. Ice cream macaroon carrot cake. Sweet roll cake croissant sweet cake halvah icing carrot cake jelly. Muffin marshmallow chocolate chocolate bar lemon drops topping ice cream dragée apple pie. Biscuit cake topping.</p>
+                <p>Pastry halvah oat cake jelly-o tart chupa chups tiramisu halvah cake. Dessert toffee marshmallow candy cookie sugar plum bonbon tootsie roll toffee. Sugar plum cotton candy pie dragée. Biscuit gummi bears gummies candy canes. Jelly-o lemon drops bonbon jelly beans cake cupcake marzipan chocolate. Oat cake candy canes jelly-o sugar plum gingerbread powder wafer. Muffin cupcake jelly-o macaroon. Chocolate bar danish pudding apple pie macaroon jelly-o. Toffee powder chocolate chocolate. Fruitcake pastry macaroon cake toffee.</p>
+            </div>
+        </div>
     </div>
 
     <div class="footer-container">
@@ -45,7 +56,7 @@
             <p>PAID FOR BY JIM HARRIS FOR USA</p>
         </div>
     </div>
-    
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
