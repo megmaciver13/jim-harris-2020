@@ -1,27 +1,47 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
 }
 
-.container-fluid {
+/* .container-fluid {
+    position: relative;
+} */
+
+.banner {
     position: relative;
 }
-
-/* .banner {
-} */
 
 .jim-harris {
     width: 100%;
 }
 
+.form-container {
+    position: absolute;
+    width: 25%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    text-align: center;
+    color: white;
+}
+
+.form-container h2 {
+    font-weight: 1000;
+    padding-top: 5vh;
+}
+
 .more-info {
+    position: relative;
     height: 15vh;
-    background-color: blue;
+    background-color: rgb(0, 91, 138);
+    text-align: center;
+    justify-content: center;
 }
 
 .footer {
+    position: relative;
     height: 20vh;
-    background-color: darkblue;
+    text-align: center;
+    background-color: rgb(0, 124, 178)
 }
 
 /* media queries */
