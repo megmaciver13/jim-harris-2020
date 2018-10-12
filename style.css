@@ -12,6 +12,14 @@ body {
     width: 100%;
 }
 
+/* notes for more mobile friendly:
+.jim-harris {
+    position: relative;
+}
+.form-container {
+    position: relative;
+} */
+
 .form-container {
     position: absolute;
     width: auto;
@@ -118,12 +126,7 @@ body {
 
 /* media queries */
 @media (min-width: 768px) {
-    .jim-harris {
-        position: relative;
-    }
-    .form-container {
-        position: relative;
-    }
+
 }
 
 @media (min-width: 576px) {
