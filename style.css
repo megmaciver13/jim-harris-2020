@@ -16,7 +16,7 @@ body {
 
 .form-container {
     position: absolute;
-    width: 25%;
+    width: auto;
     top: 50%;
     transform: translateY(-50%);
     left: 50%;
@@ -27,6 +27,10 @@ body {
 .form-container h2 {
     font-weight: 1000;
     padding-top: 5vh;
+}
+
+.form-line input {
+    width: 50%;
 }
 
 .more-info {
