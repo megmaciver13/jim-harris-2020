@@ -32,7 +32,12 @@ body {
 .input-field-container {
     left: 5%;
     width: auto;
-    font-weight: 600;
+}
+
+.input-field-container input {
+    color: rgb(102, 102, 102);
+    box-shadow: 0 0.2rem rgb(156, 156, 146);
+    border: none;
 }
 
 .button-container {
@@ -55,7 +60,7 @@ body {
 
 .btn-lg:nth-of-type(2) {
     background-color: rgb(199, 47, 79);
-    box-shadow: 0 0.2rem rgb(186, 40, 40);
+    box-shadow: 0 0.2rem rgb(124, 14, 37);
 }
 
 .more-info {
@@ -66,11 +71,29 @@ body {
     justify-content: center;
 }
 
-.footer {
+.footer-container {
     position: relative;
     height: 20vh;
     text-align: center;
     background-color: rgb(0, 124, 178);
+    color: white;
+    padding: 0.5rem;
+}
+
+.social-media-links .fab {
+    padding: 2rem 1rem;
+}
+
+.privacy {
+    font-size: 0.8rem;
+}
+
+.paid-message {
+    color: rgb(64, 157, 197);
+    font-size: 0.5rem;
+    border: 0.1rem solid rgb(64, 157, 197);
+    padding: 1rem 3rem 0 3rem;
+    margin: 4px 40%;
 }
 
 /* media queries */
